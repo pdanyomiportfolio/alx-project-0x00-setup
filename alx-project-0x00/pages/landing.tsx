@@ -19,6 +19,10 @@ const Landing: React.FC = () => {
           styles="px-2 py-1 text-sm rounded-md bg-blue-500 text-white"
         />
         <Button
+          title="Small - Rounded LG"
+          styles="px-2 py-1 text-sm rounded-lg bg-blue-500 text-white"
+        />
+        <Button
           title="Small - Rounded FULL"
           styles="px-2 py-1 text-sm rounded-full bg-blue-500 text-white"
         />
@@ -33,6 +37,10 @@ const Landing: React.FC = () => {
           styles="px-4 py-2 text-base rounded-md bg-green-500 text-white"
         />
         <Button
+          title="Medium - Rounded LG"
+          styles="px-4 py-2 text-base rounded-lg bg-green-500 text-white"
+        />
+        <Button
           title="Medium - Rounded FULL"
           styles="px-4 py-2 text-base rounded-full bg-green-500 text-white"
         />
@@ -45,6 +53,10 @@ const Landing: React.FC = () => {
         <Button
           title="Large - Rounded MD"
           styles="px-6 py-3 text-lg rounded-md bg-red-500 text-white"
+        />
+        <Button
+          title="Large - Rounded LG"
+          styles="px-6 py-3 text-lg rounded-lg bg-red-500 text-white"
         />
         <Button
           title="Large - Rounded FULL"
